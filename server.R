@@ -1,5 +1,5 @@
 
-
+library(markdown)
 library(shiny)
 
 shinyServer(function(input, output) {
@@ -32,8 +32,9 @@ shinyServer(function(input, output) {
   
   # draw the histogram for the sample
   output$distPlot <- renderPlot({
-    
-    hist(samp(), col = 'darkgray', border = 'white')
+    hist(samp(), col = 'darkgray', border = 'white',
+         main = "Frequency of sample values",
+         xlab = "Point values")
   })
   
 })

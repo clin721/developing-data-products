@@ -1,0 +1,11 @@
+name: simple_stats
+title: simple_stats
+account: clin721
+server: shinyapps.io
+appId: 205976
+bundleId: 946377
+url: https://clin721.shinyapps.io/simple_stats/
+when: 1503105891.17018
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: presentation/.DS_Store|presentation/image.png|presentation/Presentation-rpubs.html|presentation/Presentation.md|presentation/Presentation.Rpres
